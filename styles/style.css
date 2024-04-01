@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0FFFF;
+    
+}
+
+.menu_nav{
+    display: flex;
+    gap: 30px;
+    flex-direction: row-reverse;
+}
+
+.menu_nav_link{
+    text-decoration: none;
+    font-size: 15px;
+    align-items: center;
+    color: #004aac;
+    font-family: "Krona One", sans-serif;
+}
+
+.logo_menu{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    padding-right: 50%;
+}
+
+.main_banner_img{
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_texto{
+    padding: 2% 1% 0% 1%;
+    background-color: #020f1f;
+}
+
+.main_texto_titulo{
+    font-family: "Montserrat" sans-serif;
+    font-size: 40px;
+    color: #E0FFFF;
+}
+
+.main_texto_paragrafo{
+    font-family: "Montserrat" sans-serif;
+    font-size: 20px;
+    padding: 1% 0% 2% 0%;
+    color: #D3D3D3;
+}
+
+.main_fotos_exposicao{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding: 4% 0% 0.5% 0%;
+    list-style: none;
+}
+
+.text_dog{
+    display: flex;
+    width: auto;
+    height: 120px;
+    justify-content: space-around; 
+    align-items: center;
+    gap: 30px;
+    padding: 0% 1.20% 0% 1.25%;
+}
+
+.text_dog_bolt{
+    background-color:#E0FFFF;
+    padding: 1% 1% ;
+    width: 277px;
+    height: 100%;
+}
+
+.text_dog_scoob{
+    background-color:#E0FFFF;
+    padding: 1% 1% ;
+    width: 277px;
+    height: 100%;
+}
+
+.text_dog_simbaenala{
+    background-color:#E0FFFF;
+    padding: 1% 1% ;
+    width: 277px;
+    height: 100%;
+}
+
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-style: none;
+    padding-bottom: 4%;
+    
+}
+
+.button_img{
+    display: flex;
+    color: #E0FFFF;
+    background-color: #004aac;
+    border: 2px solid #004aac;
+    border-radius: 10px;
+    padding: 0.5% 0.5%;
+    text-decoration: none;
+}
+
+.rodape{
+    display: column;
+    background-color: #020f1f;
+    border: solid 0px #020f1f;
+    border-radius: 10px;
+}
+
+.rodape_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 1.5% 0% 2%;
+    color: #E0FFFF;
+
+}
+
+.rodape_rede_social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 37px;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 90px;
+    height: auto;
+    padding: 2% 2%;
+    border: solid 2px #004aac;
+    border-radius: 10px;
+}
+
+.facebook_logo{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 20%;
+    padding-right: 5px;
+}
+.name_facebook{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.instagram{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 90px;
+    height: auto;
+    padding: 2% 2%;
+    border: solid 2px #004aac;
+    border-radius: 10px;
+    gap: 4px;
+}
+
+.instagram_logo{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 20%;
+    padding-right: 2px;
+}
+
+.name_instagram{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.rodape_contato{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-right: 100px;
+    
+}
+
+.rodape_info{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    justify-content: space-around;
+    padding: 20px 20px;
+    color: #E0FFFF;
+}
+
+.text_rodape{
+    display: flex;
+}
+
+/* CSS pag_dog_donation *//* CSS pag_dog_donation *//* CSS pag_dog_donation *//* CSS pag_dog_donation */
+
+.main_page_dog_donation{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.text_dog_donation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42%;
+    align-items: center;
+    gap: 260px;
+    
+}
+
+.div_text_dog_donation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #E0FFFF;
+    padding: 2% 2%;
+    border: 2px solid #E0FFFF;
+    border-radius: 5%;
+}
+
+.text_donation_descritivo{
+    display: flex;
+    word-break: break-all;
+}
+
+.img_dog_doacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35%;
+    width: 35%;
+    object-fit: cover;
+    padding: 3% 0% 4% 5%;
+    gap: 150px;
+}
+
+.img_dog_doacao_page{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 70%;
+    border: #E0FFFF solid 5px;
+}
+
+.button_dog_descritivo{
+    display: flex;
+    color: #E0FFFF;
+    flex-direction: column;
+    background-color: #004aac;
+    border: 2px solid #004aac;
+    border-radius: 10px;
+    padding: 1% 2% 1% 3%;
+    text-decoration: none;
+    width: 25%;
+    align-items: center;
+}
+
+/* Page Formulário *//* Page Formulário *//* Page Formulário *//* Page Formulário *//* Page Formulário */
+.main_form{
+    justify-content:center;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.text_formulario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    padding: 3% 3% ;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10%;
+}
+
+.titulo_formulario{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 7%;
+}
+
+.subtitulo_formulario{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 7%;
+}
+
+fieldset{
+    border: 0;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 0.2em;
+    
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #004aac;
+    display: block;
+}
+
+.grupo fieldset{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="textarea"], .campo input[type="tel"]{
+    padding: 0.2em;
+    border: 1px solid #020f1f;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo input:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+
+.submit_reset {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0em
+}
+
+.submit{
+    width: 10%;
+    padding: 0.2em 0.2em;
+}
+
+.reset{
+    width: 10%;
+    padding: 0.2em 0.2em;
+}
+
+/* page_about *//* page_about *//* page_about *//* page_about *//* page_about *//* page_about *//* page_about */
+
+.main_about {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 3em;
+    gap: 3em;
+}
+
+.first_text, .second_text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color:#E0FFFF;
+    padding: 1em 1em;
+    border-radius: 2em;
+}
+
+.titulo_first{
+    margin-left: 33%;
+}
+
+.titulo_second{
+    margin-left: 42%;
+}
+
+.img_ong_local{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-left: 2%;
+}
+
+.img_ong_local_g1{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    
+}
+
+.img_ong_local_g2{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 0% 0% 7% 0%;
+}
+
+.img_ong_prop{
+    object-fit: cover;
+    width:10cm;
+    height: 10cm;
+    border-radius: 2em;
+}

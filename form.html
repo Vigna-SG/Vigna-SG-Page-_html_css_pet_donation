@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Formulário Adoção - Amigo Canino</title>
+</head>
+
+<body>
+
+    <header class="menu">
+        <section class="menu_nav">
+            <a class="menu_nav_link" href="./index.html">HOME</a>
+            <a class="menu_nav_link" href="./page_dog_donation.html">ADOTE</a>
+            <a class="menu_nav_link" href="./about.html">SOBRE</a>
+        </section>
+            <img class="logo_menu" src="./photos/logo-amigo-canino.png" alt="logo">
+    </header>
+
+    <main class="main_form">
+        <div class="text_formulario"> 
+            <h1 class="titulo_formulario">Formulário Para Adoção </h1>
+            <p class="subtitulo_formulario">Responda todas as perguntas do formulário para adotar seu Cãozinho!</p>
+        </div>
+
+        <form class="formulario">
+            <fieldset class="grupo"> 
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone para contato</label>
+                <input type="number" name="telefone" id="telefone" required>
+            </div>
+            <div class="campo">
+                <label for="experiencia_em_adocao">Confirme o nome do Cãozinho que deseja adotar <br> </label>
+                <textarea rows="2" style="width: 26em;" id="experiencia_em_adocao" required></textarea>
+            </div>
+            <div class="campo">
+                <label for="ask_casa_apartamento">Você mora em Casa ou Apartamento? <br> </label>
+                <label for="ask_casa_apartamento">
+                    <input type="radio" name="ask_casa_apartamento" value="casa" checked required>Casa
+                </label>
+                <label for="ask_casa_apartamento">
+                    <input type="radio" name="ask_casa_apartamento" value="apartamento" required>Apartamento
+                </label>
+            </div>
+            <div class="campo">
+                <label for="ask_apartamento_sacada">Se você mora em apartamento, por favor, mencione se tem sacada e se esta é aberta ou fechada com alguma proteção. <br> </label>
+                <label for="ask_apartamento_sacada" >
+                    <input type="radio" name="ask_apartamento_sacada" value="tem sacada fechada">Tem Sacada Fechada
+                </label>
+                <label for="ask_apartamento_sacada">
+                    <input type="radio" name="ask_apartamento_sacada" value="tem sacada aberta">Tem Sacada Aberta
+                </label>
+                <label for="ask_apartamento_sacada">
+                    <input type="radio" name="ask_apartamento_sacada" value="nao tem sacada">Não Tem Sacada
+                </label>
+                <label for="ask_apartamento_sacada">
+                    <input type="radio" name="ask_apartamento_sacada" value="nenhuma alternativa" checked>Nenhuma alternativa
+                </label>
+            </div>
+            <div class="campo">
+                <label for="ask_regiao">Em que região de São Paulo você está (Cidade/Bairro)? <br> </label>
+                <textarea rows="2" style="width: 26em;" id="ask_regiao" required></textarea>
+            </div>
+            <div class="campo">
+                <label for="ask_pedentes">Quem mais mora com você? Se tiver crianças, qual a idade delas? <br> </label>
+                <textarea rows="4" style="width: 26em;" id="ask_pedentes" required></textarea>
+            </div>
+            <div class="campo">
+                <label for="ask_dog_sozinho"> Que parte do dia o animal ficará sozinho (especificar quantas horas)? <br> </label>
+                <textarea rows="2" style="width: 26em;" id="ask_dog_sozinho" required></textarea>
+            </div>
+            <div class="campo">
+                <label for="ask_busca_cao">O que você busca/espera de um animal? O que o motiva a ter um cão? <br> </label>
+                <textarea rows="6" style="width: 26em;" id="ask_busca_cao" required></textarea>
+            </div>
+            <div class="campo">
+                <label for="aks_outro_pet"> Tem outro animal no local ou já teve? Se ainda tiver, por favor fale sobre ele(a). É castrado(a)? Sociável com outros animais? <br> </label>
+                <textarea rows="6" style="width: 26em;" id="aks_outro_pet" required></textarea>
+            </div>
+            <div class="campo">
+                <label for="aks_outro_pet_falecimento">Se teve outro animal e morreu, de que ele morreu?  <br> </label>
+                <textarea rows="6" style="width: 26em;" id="aks_outro_pet_falecimento" required></textarea>
+            </div>
+            <div class="campo">
+                <label>Você esta ciente e pode arcar com os custos de manter um animalzinho (boa ração, vacinas anuais em dia, visitas ao veterinário se necessárias e outros)? <br> </label>
+                <label>
+                <input type="radio" name="ask_compromisso_custos" value="Sim Estou Ciente"> Sim, Estou Ciente <br>
+                <input type="radio" name="ask_compromisso_custos" value="Tenho Duvidas com os Custos"> Tenho Duvidas com os Custos <br>
+                </label>
+            </div>
+
+            <div class="campo">
+                <label>Quando viajar, você conseguirá providenciar quem cuide do seu cãozinho (hotel, alguém na sua casa, outros)? <br> </label>
+                <label>
+                    <input type="radio" name="ask_cuidados_viajar" value="Sim, Sempre"> Sim, Estou Ciente <br>
+                    <input type="radio" name="ask_cuidados_viajar" value="Sim, As Vezes"> Tenho Duvidas com os Custos <br>
+                    <input type="radio" name="ask_cuidados_viajar" value="Não Sei"> Tenho Duvidas com os Custos <br>
+                </label>
+            </div>
+            <fieldset class="grupo">
+                <div class="submit_reset">
+                    <input class="submit" type="submit" value="Enviar">
+                    <input class="reset" type="reset" value="Limpar">
+                </div>
+            </fieldset>
+
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <section class="rodape_section">
+            <div class="rodape_rede_social">
+                <div class="facebook">
+                    <img src="./photos/fb.png" class="facebook_logo" >
+                    <a class="name_facebook" 
+                    href="https://www.facebook.com/Adoteumfocinho/"
+                    >Facebook</a>
+                </div>
+
+                <div class="instagram">    
+                    <img src="./photos/ig.png" class="instagram_logo" >
+                    <a class="name_instagram" href="https://www.instagram.com/adote_um_focinho/" > Instagram </a>
+                </div>
+            </div>
+
+            <div class="rodape_contato">
+                <a>Contato: (11) 99914-3820 (Mônica)</a>  
+                <a>(11) 98101-9036 (Miriam)</a>  
+            </div>
+        </section>
+        <section class="rodape_info">
+            <p class="text_rodape">A Associação “Casa da Passagem São Lázaro” esta inscrita no CNPJ sob nº 08.133.246/0001-43</p>
+            <p class="text_rodape">© Copyright 2024 Amigo Canino - Desenvolvido por: Gabriel Vigna e Denilson Silva</p>
+        </section>
+    </footer>
+    
+</body>
+</html>
